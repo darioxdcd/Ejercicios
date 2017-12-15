@@ -1,0 +1,7 @@
+print("Cual es el primer numero?")
+Primer_numero=int(input())
+print("Cual es el segundo numero?")
+Segundo_numero= int(input())
+print("Cual es el tercer numero?")
+Tercer_numero= int(input())
+print("La suma es igual a  "  + str(Primer_numero + Segundo_numero + Tercer_numero))
