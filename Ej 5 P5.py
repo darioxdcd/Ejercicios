@@ -1,0 +1,5 @@
+cadena = input('Dime una cadena')
+print('primera letra l=')
+print (cadena.find('l'))
+print ('ultima letra l=')
+print (cadena.rfind('l'))
