@@ -1,0 +1,8 @@
+print('Dime un numero mayor que 2')
+a = int(input())
+b= 2
+while True:
+  if a/b == a//b:
+    print(str(b) + ' ' + 'es el menor divisor')  
+    break
+  b= b +1

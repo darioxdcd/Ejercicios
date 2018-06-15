@@ -1,0 +1,8 @@
+print('Dime una frase')
+a = str(input())
+print('Que letra buscas?')
+b= str(input('Escribe la letra que quieres buscar:'))
+posicion = (a.find(b))
+cadena_2 = (a[(posicion)+1:])
+print(a[(posicion)+1:])
+print(cadena_2.find(b)+(posicion+1))

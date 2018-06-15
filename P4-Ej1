@@ -1,0 +1,10 @@
+print("¿Cuál es el primer numero?")
+A=int(input())
+print('¿Cuál es el sengundo número?')
+B = (int(input())
+for i in range (A , B):
+  print(i)
+  
+
+
+
