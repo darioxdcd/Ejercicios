@@ -1,5 +1,7 @@
-inicio = int(input('Cuantos km recorres en 1 dia?'))
-meta = int(input('Cuantos km quieres recorres en un dia?'))
+print('Cuantos km recorres?')
+inicio = int(input())
+print('Cuantos km quieres recorrer?')
+meta = int(input())
 dias = 0
 while inicio<meta:
   i = int(inicio)*0.1
