@@ -1,0 +1,8 @@
+inicio = int(input('Cuantos km recorres en 1 dia?'))
+meta = int(input('Cuantos km quieres recorres en un dia?'))
+dias = 0
+while inicio<meta:
+  i = int(inicio)*0.1
+  inicio = inicio + i
+  dias=dias+1
+print("con" +' ' +str(dias) + " dias aguanto"+' '+str(int(inicio)) +'km')
